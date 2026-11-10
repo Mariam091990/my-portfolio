@@ -1,0 +1,35 @@
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #292824;
+  --color-secondary: #77736a;
+  --color-accent: #a58b70;
+  --color-background: #f8f7f4;
+  --color-surface: #eeece6;
+  --color-border: #e5e1d9;
+
+  --font-sans: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  margin: 0;
+  background-color: #f8f7f4;
+  color: #292824;
+  font-family: "Inter", sans-serif;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+::selection {
+  background: #d8c8b5;
+  color: #292824;
+}
