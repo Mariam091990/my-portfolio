@@ -7,7 +7,7 @@ import Project from "./components/Project"
 import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Services from "./components/Services";
-import Achievements from "./components/achievements";
+import Achievements from "./components/Achievements";
 import Contact from "./components/Contact";
 function App() {
   return (
